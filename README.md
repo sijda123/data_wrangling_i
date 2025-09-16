@@ -1,3 +1,3 @@
-# data_wrangling_i
+# Data Wrangling I
 
-code from the data wrangling topic in P8105. Code was written in class.
+This repo has code from the data wrangling topic in P8105. Code was written in class.
