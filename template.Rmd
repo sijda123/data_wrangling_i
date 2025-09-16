@@ -39,9 +39,24 @@ Sometimes skimming data is neat?
 skimr::skim(litters_df)
 ```
 
+## Fix the missingness
 
+```{r}
+litters_df = 
+  read_csv("data_import_examples/FAS_litters.csv", na=c("NA", ".", ""))
+```
 
+# Import pups data
 
+```{r}
+pups_df = 
+  read_csv("data_import_examples/FAS_pups.csv",
+           skip = 3,
+           na=c("NA", ".", ""))
+
+pups_df =
+  janitor::clean_names(pups_df)
+```
 
 
 
