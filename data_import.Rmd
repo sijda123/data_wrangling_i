@@ -98,7 +98,7 @@ pups_df_base =
 ## What about data exporting?
 
 ```{r}
-write_csv(fatr_df, "data_import_examples/fatr_df.csv")
+write_csv(fatr_df, "data_import_examples/fotr_df.csv")
 ```
 
 
