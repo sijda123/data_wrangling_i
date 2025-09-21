@@ -72,7 +72,7 @@ mlb_df =
 Import LotR word counts.
 
 ```{r}
-fatr_df = 
+fotr_df = 
   read_excel("data_import_examples/LotR_Words.xlsx", range = "B3:D6")
 ```
 
@@ -98,7 +98,7 @@ pups_df_base =
 ## What about data exporting?
 
 ```{r}
-write_csv(fatr_df, "data_import_examples/fotr_df.csv")
+write_csv(fotr_df, "data_import_examples/fotr_df.csv")
 ```
 
 
